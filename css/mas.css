@@ -30,6 +30,9 @@ header{
     position: center;
     top: 0;
     color: white;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 3.125rem;
 }
 .navbar{
     display: flex;
@@ -45,12 +48,6 @@ header{
 }
 .navbar a:hover{
     color: black
-}
-header h1{
-    text-align: center;
-    font-family: "Poetsen One", sans-serif;
-    font-size: 3.125rem;
-    color: white ;
 }
 
 .grid {
@@ -91,7 +88,7 @@ header h1{
     font-family:'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 20px;
-    color: rgb(95, 79, 79);
+    color: rgb(3, 3, 3);
     margin: 5px 0px;
 }
 
