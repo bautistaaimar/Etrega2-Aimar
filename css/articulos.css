@@ -59,7 +59,7 @@ header h1{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1.875rem;
-    background-color: rgb(141, 170, 181);
+    background-color: rgb(95, 95, 82);
     padding: 20px;
     justify-items: center;
     align-items: center;
