@@ -1,121 +1,113 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-    display: flex;
-    width: 100%;
-    height: 70px;
-    background-color: rgb(1, 1, 1);
-    justify-content: space-between; 
-    align-items: center;
-}
-.nombre-compañia{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: center;
-    top: 0;
-    color: white;
-    text-align: center;
-    font-family: "Poetsen One", sans-serif;
-    font-size: 3.125rem;
-}
-.navbar{
-    display: flex;
-    list-style: none;
-    gap: 1.25rem;
-    padding-right:1.25rem ;
-    font-family: "Poetsen One", sans-serif;
 
+.header-index {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
 }
-.navbar a{
-    text-decoration: none;
-    color: rgb(234, 234, 234);
-    padding:0px .625rem;
+.header-index h1 {
+  display: flex;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  width: 100%;
+  color: white;
 }
-.navbar a:hover{
-    color: black
+.header-index nav {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  padding-right: 1.25rem;
+  font-family: "Poetsen One", sans-serif;
+  text-align: center;
+}
+.navbar li a {
+  text-decoration: none;
+  color: rgb(234, 234, 234);
+  padding: 0px 0.625rem;
+}
+.navbar li a:hover {
+  text-decoration: underline;
+  color: rgb(69, 60, 60);
 }
 
 .grid {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1.875rem;
-    background-color: rgb(141, 170, 181);
-    padding: 20px;
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.875rem;
+  background-color: rgb(141, 170, 181);
+  padding: 20px;
+  justify-items: center;
+  align-items: center;
+  object-fit: cover;
+}
+.grid .item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid black;
+  justify-items: center;
+  align-items: center;
+}
+.grid .item img {
+  border-radius: 20px;
+  width: 100%;
+  padding-left: 40px;
+  justify-items: center;
+  align-items: center;
+}
+.grid .zapa h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 10px px;
+}
+.grid .zapa h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(95, 79, 79);
+  margin: 5px 0px;
 }
 
-.item{
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 15px;
-    border: 2px solid black;
-    justify-items: center;
-    align-items: center;
+.contactos {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(115, 50, 50);
 }
 
-.item img{
-    border-radius: 20px;
-    width: 100%;
-    padding-left: 40px;
-    justify-items: center;
-    align-items: center;
-}
-.zapa h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
-    font-size: 30px;
-    margin: 10px px;
-}
-.zapa h3{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: rgb(95, 79, 79);
-    margin: 5px 0px;
-}
-.contactos{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    background-color: rgb(103, 66, 66);
-}
-.contactos h2{
-    text-align: center;
-    font-family: "Poetsen One", sans-serif;
-    font-size: 3.125rem;
-}
-.contactos li{
-    padding:0px .625rem;
-    border-right: 1px solid rgb(255, 253, 252);
-}
-.contactos li a{
-    text-decoration: none;
+.contactos h2 {
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-size: 3.125rem;
 }
 
+.contactos li {
+  padding: 0px 0.625rem;
+  border-right: 1px solid rgb(255, 255, 255);
+}
 
+.contactos li a {
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */
