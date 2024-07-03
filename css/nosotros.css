@@ -80,6 +80,7 @@ main{
     color: rgb(25, 18, 32);
 }
 .nosotros p{
+    display: flex;
     padding:50px 30px;
     border-right: 1px solid rgb(255, 253, 252);
     color: rgb(234, 234, 234);

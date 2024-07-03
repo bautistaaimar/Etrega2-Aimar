@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    padding-right:1.25rem ;
+    font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    li{
+        a{
+            text-decoration: none;
+            color: rgb(234, 234, 234);
+            padding:0px .625rem;
+            &:hover{
+                text-decoration: underline;
+                color: rgb(69, 60, 60);
+            }
+        }
+    }
+}
